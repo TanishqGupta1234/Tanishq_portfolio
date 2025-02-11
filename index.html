@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/41a8a938c4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>MERN Stack Developer</p>
+          <h1>
+            Hii,I`m <span>Tanishq</span><br />
+            Gupta from UPES
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------about--------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/image1.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I am a passionate MERN stack developer with 25 months of hands-on
+              experience. Hailing from Mathura, Uttar Pradesh, I thrive in
+              dynamic environments and am eager to leverage my skills in web
+              development while seeking job and internship opportunities. In my
+              free time, I enjoy swimming and hitting the gym, which keeps me
+              motivated and focused.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>MERN Stack Developer</span><br />DesigningUI/UX of Web
+                  Applications
+                </li>
+                <li>
+                  <span>Cloud Engineer</span><br />Architecting scalable
+                  solutions in cloud.
+                </li>
+                <li>
+                  <span>Docker Engineer</span><br />Containerization expert for
+                  scalable applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Working as a MERN Stack
+                  Developer at Cocolevio LLP.
+                </li>
+                <li>
+                  <span>May'2024 - July'2024</span><br />Worked as a MERN stack
+                  developer at Eclipticon Software Private Limited
+                </li>
+                <li>
+                  <span>May'2024 - July'2024</span><br />Indian Oil Corporation
+                  Limited
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022-2026</span><br />B.tech From UPES, Dehradun.</li>
+                <li>
+                  <span>2021 - 2022</span><br />Completed 12th From DPS, Mathura
+                </li>
+                <li>
+                  <span>2019 - 2020</span><br />Completed 10th From DPS, Mathura
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------SERVICES------------------ -->
+
+    <div id="services">
+      <div class="conatiner">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design involves creating visually appealing and user-friendly
+              websites. It encompasses layout, color schemes, typography, and
+              navigation, ensuring an optimal user experience while effectively
+              communicating the brand's message
+            </p>
+            <a href="#">Learn More...</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-cloud"></i>
+            <h2>Cloud Engineer</h2>
+            <p>
+              A Cloud Engineer designs, implements, and manages cloud-based
+              solutions. They ensure scalability, security, and efficiency,
+              leveraging cloud services to optimize infrastructure, enhance
+              performance, and support business objectives in dynamic
+              environments.
+            </p>
+            <a href="#">Learn More...</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-apple"></i>
+            <h2>Docker Engineer</h2>
+            <p>
+              A Docker Engineer specializes in containerization technologies,
+              designing and managing scalable applications. They collaborate
+              with development and operations teams to automate deployment
+              processes and optimize application performance in diverse
+              environments.
+            </p>
+            <a href="#">Learn More...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------portfolio Services----------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Docker Basics</h3>
+                        <p>The "Docker_Basics" offers a concise introduction to Docker, 
+                        covering essential concepts and practical applications. It provides tutorials and examples 
+                        to help beginners understand containerization, facilitating efficient application deployment
+                         and management in isolated environments. A valuable resource for those new to Docker.</p>
+                         <a href="https://github.com/TanishqGupta1234/Docker_Basics"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Sql Database</h3>
+                        <p>TThe "MySQL_Docker" offers a comprehensive 
+                            guide to deploying MySQL databases using Docker. It includes example
+                             configurations and scripts for setting up, managing, and connecting 
+                             to MySQL containers, making it  a valuable resource for developers seeking
+                              to simplify database management in containerized environments.</p>
+                         <a href="https://github.com/TanishqGupta1234/MySQL_Docker"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>ML Model</h3>
+                        <p>The "StreamlitModel_Docker" repository by Tanishq Gupta provides a framework
+                             for deploying machine learning models using Streamlit and Docker. It includes
+                              example code and configurations to streamline the containerization process,
+                               enabling users to easily create and manage interactive web applications for 
+                               their models.</p>
+                         <a href="https://github.com/TanishqGupta1234/StreamlitModel_Docker"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Streamlit App</h3>
+                        <p>The "Dockers_Streamlit" repository by Tanishq Gupta demonstrates how to deploy 
+                            Streamlit applications using Docker. It provides a step-by-step guide and example
+                             configurations, enabling users to containerize and efficiently manage their Streamlit apps. 
+                             This project is ideal for developers looking to streamline deployment processes with Docker.</p>
+                         <a href="https://github.com/TanishqGupta1234/Dockers_Streamlit"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Networking</h3>
+                        <p>The "Docker_Network" repository by Tanishq Gupta explores Docker networking concepts
+                            and configurations. It provides examples and tutorials on setting up and managing networks
+                             for Docker containers, enabling seamless communication between them. This project serves as
+                              a valuable resource.</p>
+                         <a href="https://github.com/TanishqGupta1234/Docker_Network"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Full Stack App</h3>
+                        <p>The "Docker_FullStack" repository by Tanishq Gupta demonstrates the deployment of a full-stack
+                             application using Docker. It includes configurations and examples for both frontend and backend
+                              services, showcasing best practices for containerization and orchestration.</p>
+                         <a href="https://github.com/TanishqGupta1234/Docker_FullStack"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Course4u</h3>
+                        <p>The "Docker_Basics" by Tanishq Gupta offers a concise introduction to Docker, 
+                        covering essential concepts and practical applications. It provides tutorials and examples 
+                        to help beginners understand containerization, facilitating efficient application deployment
+                         and management in isolated environments. A valuable resource for those new to Docker.</p>
+                         <a href="https://github.com/TanishqGupta1234/Docker_Basics"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Food Delivery App</h3>
+                        <p>The GitHub repository "Food-Del" by Tanishq Gupta appears to be focused on food delivery
+                             services, likely involving features for ordering and managing food deliveries. For specific
+                              details, please visit the repository directly. The "Food-Del" repository by Tanishq Gupta is
+                               designed to facilitate food delivery services..</p>
+                         <a href="https://github.com/TanishqGupta1234/Docker_Basics"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------contact------------ -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  Tanishq.101823@stu.upes.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i>  6398234043</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><<i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <a href="images/Tanishq_resume.pdf-2.pdf" download class="btn btn2">Download CV</a>
+
+        
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="Email" id="" placeholder="Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <p>Copyright @ Tanishq. Made by Tanishq Gupta</p>
+
+         </div>
+        </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
