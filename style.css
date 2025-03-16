@@ -379,3 +379,67 @@ form input, form textarea{
 
 }
 
+#portfolio .container {
+    text-align: center;
+}
+
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Spacing between items */
+    justify-content: center;
+    align-items: center;
+}
+
+.work {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    background: #f8f8f8; /* Light background for consistency */
+    padding: 15px;
+    text-align: center;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.layer {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.work:hover .layer {
+    opacity: 1;
+}
+
+.layer h3 {
+    margin-bottom: 10px;
+}
+
+.layer p {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.layer a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
