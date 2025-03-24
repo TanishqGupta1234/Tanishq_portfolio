@@ -443,3 +443,21 @@ form input, form textarea{
     margin-top: 10px;
     font-size: 18px;
 }
+.btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #88d3ce, #6e45e2);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
