@@ -18,7 +18,7 @@ html{
 #header{
     width:100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    /* background-image: url(images/background.png); */
     background-size:cover;
     background-position: center;
 
@@ -77,10 +77,25 @@ nav ul li a:hover::after{
 
 }
 
-.header-text h1{
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
     font-size: 60px;
     margin-top: 20px;
+    position: center;
 }
+
+.header-text span {
+    color: #ffcc00; /* Highlight color */
+    font-weight: bold;
+}
+
 
 .header-text h1 span{
  color: #ff004f;   
